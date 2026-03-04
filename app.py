@@ -61,4 +61,5 @@ if uploaded_file is not None:
                     st.image(cv2.cvtColor(plate_crop, cv2.COLOR_BGR2RGB), caption="Cropped Plate")
                     st.success(f"**Detected Plate Number:** {plate_text}")
             
+
             st.image(display_image, caption="Processed Result", use_container_width=True)
